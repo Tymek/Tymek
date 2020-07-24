@@ -1,1 +1,1 @@
-[![very particular set of skills](/Tymek/Tymek/blob/master/graph.png?raw=true)](https://www.tymek.cz/#stack)
+[![](https://rawcdn.githack.com/Tymek/Tymek/ddcfe8ff3a2dec4e503c2314622b5ad633f04897/graph.png)](https://www.tymek.cz/#stack)
