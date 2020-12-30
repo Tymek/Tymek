@@ -106,19 +106,23 @@ const delay = ms => new Promise(resolve => {
 	setTimeout(resolve, ms)
 })
 
-const rootUrl = 'https://www.tymek.cz'
+// const rootUrl = 'https://www.tymek.cz/logos/png'
+const rootUrl = './images'
 
 const addIds = data => data.map(item => ({
 	id: item.tech,
 	...item,
 }))
 
+const added = []
+
 const addImage = item => ({
 	...item,
 	img: (() => {
 		if (item.color) { // only items in groups, not groups
 			const img = new Image()
-			img.src = `${rootUrl}/logos/png/${item.id.toLowerCase().replace(' ', '-')}.png`
+			img.src = `${rootUrl}/${item.id.toLowerCase().replace(' ', '-')}.png`
+			added.push(img.src)
 			return img
 		}
 		return null
