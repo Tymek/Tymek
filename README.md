@@ -1,4 +1,4 @@
-<h2 align="center">AKA: czechu, SP5CMD</h1>h2>
+<h2 align="center">AKA: czechu, SP5CMD</h2>
 
 [![](https://github.com/Tymek/Tymek/blob/master/readme.png)](https://www.tymek.cz/#stack)
 <p align="center">
